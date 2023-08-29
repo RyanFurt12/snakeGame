@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas{
+    background-color: #0a0a0a;
+}
+
+.gameOverMenu{
+    position: absolute;
+    color: white;
+    text-align: center;
+
+}
+
+.gameOverMenu h1{
+    font-size: 110px;
+    filter: drop-shadow(3px 3px 5px green);
+    transform: rotate(-5deg);
+}
+
+.gameOverMenu p{
+    font-size: 35px;
+}
+
+.gameOverMenu button{
+    background-color: rgb(8, 66, 1);
+    border: 2px solid white;
+    border-radius: 20px ;
+    color: white;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.gameOverMenu button:hover{
+    background-color: white;
+    border: 2px solid rgb(8, 66, 1);
+    color: rgb(8, 66, 1);
+    scale: 1.1;
+}
